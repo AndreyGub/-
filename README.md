@@ -18,6 +18,8 @@
 
 <img width="861" height="259" alt="image" src="https://github.com/user-attachments/assets/90f09f66-9371-4709-ac28-2fe7969d01b6" />
 
+Тестируйте HAProxy
+<img width="810" height="458" alt="image" src="https://github.com/user-attachments/assets/c367f195-4aa5-46c5-a0ad-b4d73e1861f1" />
 
 
 # -Задание 2
