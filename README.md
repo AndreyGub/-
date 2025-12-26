@@ -32,6 +32,7 @@
 # На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
 
 # Ответ: 
+HAproxy файл (https://docs.google.com/document/d/1s5MsNz7NM9XvWCsp8ooZil-7WO6_tyaibKAlwaG4Iew/edit?usp=sharing)
 Создадим и запустим третий сервер 
 <img width="847" height="108" alt="image" src="https://github.com/user-attachments/assets/8db95af7-e0b2-4c1f-a1c1-e1d262f2997d" />
 <img width="843" height="115" alt="image" src="https://github.com/user-attachments/assets/170fa5ae-9c44-44e7-a5df-086d6adaf0b0" />
