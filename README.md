@@ -50,3 +50,24 @@ chmod +x test_balancer.sh
 <img width="849" height="453" alt="image" src="https://github.com/user-attachments/assets/a4e55850-4821-4ed4-8ea9-12dc334b6859" />
 
 
+
+#  с доменом и без него:
+
+echo "=== Тест С доменом example.local ==="
+for i in {1..10}; do curl -s -H "Host: example.local" http://localhost/; done
+<img width="898" height="345" alt="image" src="https://github.com/user-attachments/assets/cb4252fb-cef7-49e4-94f6-2813feaac517" />
+
+
+
+echo -e "\n=== Тест БЕЗ домена example.local ==="
+for i in {1..5}; do curl -s http://localhost/; done
+
+<img width="802" height="383" alt="image" src="https://github.com/user-attachments/assets/bee811ae-b265-4f0b-99ed-380e9696f75c" />
+
+на последнем скриншоте я не создал четвертый сервер..
+
+создаем: python3 -m http.server 8080 --bind 127.0.0.1 &
+
+<img width="825" height="65" alt="image" src="https://github.com/user-attachments/assets/b28020ed-eaa0-49be-b154-b3614d35694c" />
+
+
